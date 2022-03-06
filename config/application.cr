@@ -6,6 +6,6 @@ class Application
 end
 
 Application.configure do |settings|
-  settings.name = "Lucky Jumpstart"
-  settings.support_email = Carbon::Address.new(settings.name, "no-reply@lucky_jumpstart.com")
+  settings.name = "Blog Routing"
+  settings.support_email = Carbon::Address.new(settings.name, "no-reply@blog_routing.com")
 end
