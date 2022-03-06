@@ -3,7 +3,7 @@ class Home::Index < BrowserAction
 
   get "/" do
     if current_user?
-      redirect Dashboard::Index
+      redirect Posts::Index
     else
       html Marketing::IndexPage
     end
